@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AP-Gurukul Web App
 
-## Getting Started
+This is the student-facing Next.js application for the AP-Gurukul platform.
+
+## 🔄 Universal Data Sync & Authentication
+**This application shares a unified Firebase database with the entire AP-Gurukul ecosystem.** 
+- Users authenticate via **Gmail (Google Auth)**. If a user logs into this Web App with their Gmail account, their profile, progress, and history are perfectly synced. They can open the AP-Gurukul Mobile App or Telegram App using that same Gmail account and seamlessly resume their session!
+- If an admin updates course content, uploads a DOCX file of new questions, or changes permissions in the Admin Portal, those changes instantly reflect in this Web App in real-time.
+
+## 🚀 Getting Started
 
 First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+Please see the `CONTRIBUTING.md` and `SECURITY.md` files for guidelines. As an open-source contributor, you will test this UI against our public staging APIs.
